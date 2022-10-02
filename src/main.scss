@@ -1,0 +1,14 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+/* is never generated */
+@layer components {
+    .btnA {
+        @apply bg-yellow-100;
+    }
+}
+
+.btnB {
+    @apply bg-yellow-100;
+}
